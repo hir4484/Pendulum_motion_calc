@@ -7,18 +7,21 @@ The physics calculation is done in Python, and the animation is done using Proce
 
 *********************************************************
 Pendulum_motion.py
+
 Using numerical analysis, the time and angle are calculated from the equation
  of motion of the pendulum. The fourth-order Runge-Kutta method is applied
  to the differential equation.
 
 
 Rotational_torque_and_reaction.py
+
 Calculates the angular acceleration that occurs in a rotating body when an axial
  torque is applied. A moment of inertia is set for the rotating body.
 The time and rotation angle of the rotating body are output.
 
 
 Pendulum_and_translational_motion_with-a.py
+
 This calculates the position of a falling inverted pendulum when translational
  acceleration is applied to it. The translational acceleration is applied to the
  support point of the inverted pendulum.
